@@ -48,7 +48,7 @@ functions:
   displayService:
     handler: handler.starterService
     events:
-      - http:
+      - http: 
           path: starterService
           method: get
           cors: true
